@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentLibrary", "StudentLibrary\StudentLibrary.csproj", "{D0317667-0171-4B0D-9867-1C2D668912AD}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WebberserviceStudent", "WebberserviceStudent\WebberserviceStudent.ccproj", "{569F2CE1-460A-416E-8FA6-540F50EFE232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalEnWebberService", "GalEnWebberService\GalEnWebberService.csproj", "{EA0D8B80-3AD0-4600-8C84-3CDCEC9ACA6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0317667-0171-4B0D-9867-1C2D668912AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0317667-0171-4B0D-9867-1C2D668912AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0317667-0171-4B0D-9867-1C2D668912AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0317667-0171-4B0D-9867-1C2D668912AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569F2CE1-460A-416E-8FA6-540F50EFE232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569F2CE1-460A-416E-8FA6-540F50EFE232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569F2CE1-460A-416E-8FA6-540F50EFE232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569F2CE1-460A-416E-8FA6-540F50EFE232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0D8B80-3AD0-4600-8C84-3CDCEC9ACA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0D8B80-3AD0-4600-8C84-3CDCEC9ACA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0D8B80-3AD0-4600-8C84-3CDCEC9ACA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0D8B80-3AD0-4600-8C84-3CDCEC9ACA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

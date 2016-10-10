@@ -1,0 +1,7 @@
+C:\andersb\tek3\socket\UdpBroadcastCapture\UdpBroadcastCapture\bin\Debug\UdpBroadcastCapture.exe
+C:\Users\Nikolaj Bang\Downloads\UdpBroadcastCapture\UdpBroadcastCapture\bin\Debug\UdpBroadcastCapture.exe.config
+C:\Users\Nikolaj Bang\Downloads\UdpBroadcastCapture\UdpBroadcastCapture\bin\Debug\UdpBroadcastCapture.exe
+C:\Users\Nikolaj Bang\Downloads\UdpBroadcastCapture\UdpBroadcastCapture\bin\Debug\UdpBroadcastCapture.pdb
+C:\Users\Nikolaj Bang\Downloads\UdpBroadcastCapture\UdpBroadcastCapture\obj\Debug\UdpBroadcastCapture.csprojResolveAssemblyReference.cache
+C:\Users\Nikolaj Bang\Downloads\UdpBroadcastCapture\UdpBroadcastCapture\obj\Debug\UdpBroadcastCapture.exe
+C:\Users\Nikolaj Bang\Downloads\UdpBroadcastCapture\UdpBroadcastCapture\obj\Debug\UdpBroadcastCapture.pdb

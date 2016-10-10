@@ -1,0 +1,5 @@
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 38\StudentLibraryAndWebservice\StudentLibrary\bin\Debug\StudentLibrary.dll
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 38\StudentLibraryAndWebservice\StudentLibrary\bin\Debug\StudentLibrary.pdb
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 38\StudentLibraryAndWebservice\StudentLibrary\obj\Debug\StudentLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 38\StudentLibraryAndWebservice\StudentLibrary\obj\Debug\StudentLibrary.dll
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 38\StudentLibraryAndWebservice\StudentLibrary\obj\Debug\StudentLibrary.pdb
