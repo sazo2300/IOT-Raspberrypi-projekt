@@ -5,3 +5,9 @@ C:\Users\Nikolaj Bang\Downloads\UdpBroadcastCapture\UdpBroadcastCapture\bin\Debu
 C:\Users\Nikolaj Bang\Downloads\UdpBroadcastCapture\UdpBroadcastCapture\obj\Debug\UdpBroadcastCapture.csprojResolveAssemblyReference.cache
 C:\Users\Nikolaj Bang\Downloads\UdpBroadcastCapture\UdpBroadcastCapture\obj\Debug\UdpBroadcastCapture.exe
 C:\Users\Nikolaj Bang\Downloads\UdpBroadcastCapture\UdpBroadcastCapture\obj\Debug\UdpBroadcastCapture.pdb
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 41\UdpBroadcastCapture\UdpBroadcastCapture\bin\Debug\UdpBroadcastCapture.exe.config
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 41\UdpBroadcastCapture\UdpBroadcastCapture\obj\Debug\UdpBroadcastCapture.exe
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 41\UdpBroadcastCapture\UdpBroadcastCapture\obj\Debug\UdpBroadcastCapture.pdb
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 41\UdpBroadcastCapture\UdpBroadcastCapture\bin\Debug\UdpBroadcastCapture.exe
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 41\UdpBroadcastCapture\UdpBroadcastCapture\bin\Debug\UdpBroadcastCapture.pdb
+C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 41\UdpBroadcastCapture\UdpBroadcastCapture\obj\Debug\UdpBroadcastCapture.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 41\StudentLibraryAndWebservice\GalEnWebberService\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 41\StudentLibraryAndWebservice\GalEnWebberService\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\Nikolaj Bang\Desktop\mere skolesjav\Programmerings opgaver 3 semester\uge 41\StudentLibraryAndWebservice\GalEnWebberService\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

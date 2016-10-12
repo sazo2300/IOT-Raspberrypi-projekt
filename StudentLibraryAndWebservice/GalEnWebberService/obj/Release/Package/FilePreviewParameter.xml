@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="GalEnWebberService" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Nikolaj\ Bang\\Desktop\\mere\ skolesjav\\Programmerings\ opgaver\ 3\ semester\\uge\ 41\\StudentLibraryAndWebservice\\GalEnWebberService\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Nikolaj\ Bang\\Desktop\\mere\ skolesjav\\Programmerings\ opgaver\ 3\ semester\\uge\ 41\\StudentLibraryAndWebservice\\GalEnWebberService\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DBModel-Web.config Connection String" description="" value="Data Source=bangs.database.windows.net;Initial Catalog=Bangs;User ID=bang;Password=Dennedb1234;MultipleActiveResultSets=True;Application Name=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nikolaj\ Bang\\Desktop\\mere\ skolesjav\\Programmerings\ opgaver\ 3\ semester\\uge\ 41\\StudentLibraryAndWebservice\\GalEnWebberService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBModel']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nikolaj\ Bang\\Desktop\\mere\ skolesjav\\Programmerings\ opgaver\ 3\ semester\\uge\ 41\\StudentLibraryAndWebservice\\GalEnWebberService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DbModel']/@connectionString" />
+  </parameter>
+</parameters>

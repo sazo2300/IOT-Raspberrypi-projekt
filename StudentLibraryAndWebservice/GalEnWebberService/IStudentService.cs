@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
@@ -13,10 +14,8 @@ namespace GalEnWebberService
     public interface IStudentService
     {
         [OperationContract]
-        void InsertData(int lyss, int temps);
-
-
-
+        void InsertData(Raspberrypoop rasp);
+        
         [OperationContract]
         void AddStudent(Student student);
         [OperationContract]
@@ -28,5 +27,4 @@ namespace GalEnWebberService
         [OperationContract]
         List<Student> GetAllStudents();
     }
-    
 }

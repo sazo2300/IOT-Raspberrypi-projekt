@@ -108,7 +108,7 @@
     <Content Include="StudentService.svc" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBModel.cs" />
+    <Compile Include="DbModel.cs" />
     <Compile Include="Raspberrypoop.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="StudentService.svc.cs">
@@ -128,6 +128,8 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Properties\PublishProfiles\GalEnWebberService - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\GalEnWebberService20161012111646 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

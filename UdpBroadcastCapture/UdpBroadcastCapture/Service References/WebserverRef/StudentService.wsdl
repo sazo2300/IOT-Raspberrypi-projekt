@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="StudentService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://galenwebberservice20161012111646.azurewebsites.net/StudentService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://galenwebberservice20161012111646.azurewebsites.net/StudentService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://galenwebberservice20161012111646.azurewebsites.net/StudentService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GalEnWebberService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IStudentService_InsertData_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertData" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_InsertData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_AddStudent_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddStudent" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_AddStudent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_FindStudent_InputMessage">
+    <wsdl:part name="parameters" element="tns:FindStudent" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_FindStudent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FindStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_RemoveStudent_InputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveStudent" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_RemoveStudent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RemoveStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_EditStudent_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditStudent" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_EditStudent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_GetAllStudents_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllStudents" />
+  </wsdl:message>
+  <wsdl:message name="IStudentService_GetAllStudents_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllStudentsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IStudentService">
+    <wsdl:operation name="InsertData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStudentService/InsertData" message="tns:IStudentService_InsertData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStudentService/InsertDataResponse" message="tns:IStudentService_InsertData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddStudent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStudentService/AddStudent" message="tns:IStudentService_AddStudent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStudentService/AddStudentResponse" message="tns:IStudentService_AddStudent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FindStudent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStudentService/FindStudent" message="tns:IStudentService_FindStudent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStudentService/FindStudentResponse" message="tns:IStudentService_FindStudent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RemoveStudent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStudentService/RemoveStudent" message="tns:IStudentService_RemoveStudent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStudentService/RemoveStudentResponse" message="tns:IStudentService_RemoveStudent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditStudent">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStudentService/EditStudent" message="tns:IStudentService_EditStudent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStudentService/EditStudentResponse" message="tns:IStudentService_EditStudent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllStudents">
+      <wsdl:input wsaw:Action="http://tempuri.org/IStudentService/GetAllStudents" message="tns:IStudentService_GetAllStudents_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IStudentService/GetAllStudentsResponse" message="tns:IStudentService_GetAllStudents_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IStudentService" type="tns:IStudentService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertData">
+      <soap:operation soapAction="http://tempuri.org/IStudentService/InsertData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddStudent">
+      <soap:operation soapAction="http://tempuri.org/IStudentService/AddStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FindStudent">
+      <soap:operation soapAction="http://tempuri.org/IStudentService/FindStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RemoveStudent">
+      <soap:operation soapAction="http://tempuri.org/IStudentService/RemoveStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditStudent">
+      <soap:operation soapAction="http://tempuri.org/IStudentService/EditStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllStudents">
+      <soap:operation soapAction="http://tempuri.org/IStudentService/GetAllStudents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="StudentService">
+    <wsdl:port name="BasicHttpBinding_IStudentService" binding="tns:BasicHttpBinding_IStudentService">
+      <soap:address location="http://galenwebberservice20161012111646.azurewebsites.net/StudentService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

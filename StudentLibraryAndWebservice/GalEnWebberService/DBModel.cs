@@ -5,16 +5,16 @@ namespace GalEnWebberService
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class DBModel : DbContext
+    public partial class DbModel : DbContext
     {
-        public DBModel()
-            : base("name=DBModel")
+        public DbModel()
+            : base("name=DbModel1")
         {
-            base.Configuration.ProxyCreationEnabled = false;
+            Configuration.ProxyCreationEnabled = false;
         }
 
-        public virtual DbSet<Raspberrypoop> Raspberrypoop { get; set; }
-        public virtual DbSet<Student> Student { get; set; }
+        public virtual DbSet<Raspberrypoop> Raspberrypoops { get; set; }
+        public virtual DbSet<Student> Students { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

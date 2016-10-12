@@ -2,6 +2,7 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using UdpBroadcastCapture.WebserverRef;
 
 namespace UdpBroadcastCapture
 {
@@ -30,14 +31,14 @@ namespace UdpBroadcastCapture
                     string message = Encoding.ASCII.GetString(datagramReceived, 0, datagramReceived.Length);
                     Console.WriteLine("Receives {0} bytes from {1} port {2} message {3}", datagramReceived.Length,
                         remoteEndPoint.Address, remoteEndPoint.Port, message);
-                    using (var v = new WebserviceRef.StudentServiceClient())
+                    using (var v = new WebserverRef.StudentServiceClient())
                     {
 
                         var s = message.Split('\n');
                         var lysdata = int.Parse(s[0].Split(' ')[1]);
                         var temps = int.Parse(s[1].Split(' ')[1]);
-
-                        v.InsertData(lysdata, temps);
+                        var rasp = new Raspberrypoop() {lys = lysdata, temp = temps};
+                        v.InsertData(rasp);
                     }
                     //Parse(message);
                 }
