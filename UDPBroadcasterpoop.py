@@ -3,16 +3,23 @@ import _thread
 import time
 import smbus
 import socket
+import sys
 
-UDP_IP = "192.168.137.1"
+UDP_IP = "192.168.137.12"
 UDP_PORT = 5005
 bus = smbus.SMBus(1)
 MESSAGE = "Hello, World!"
+
+if len(sys.argv) >= 3:
+        UDP_IP = sys.argv[1]
+        UDP_PORT = sys.argv[2]
+        MESSAGE = sys.argv[3]
+
 print ("UDP target IP:", UDP_IP)
 print ("UDP target port:", UDP_PORT)
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 #sock.setsockopt(SO_SOCKET, SO_BROADCAST, 1)
-sock.bind(("192.168.137.12", UDP_PORT))
+sock.bind((UDP_IP, UDP_PORT))
 running = True
 delay = 0.5
 
@@ -47,7 +54,6 @@ def change_delay():
                         delay = float(splitext[2])
                         print ("Skifter delay")
 
-# Create two threads as follows
 try:
         _thread.start_new_thread( print_message, () )
 #        _thread.start_new_thread( change_delay, () )
